@@ -26,7 +26,18 @@
                 </div>
                 
             </div>
+            
         </div>
+        <div class="is-block has-text-centered">
+                <div >
+                    <b-icon
+                        class="icono"
+                        icon="chevron-down"
+                        size="is-small">
+                    </b-icon>
+                </div>
+                <p>Si no se te redirecciona automáticamente, por favor haz click en la bandera que corresponda</p>
+            </div>
     </section>
 </template>
 <script>
@@ -38,47 +49,61 @@ export default {
     .container{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-                background-image: url('../assets/img/mari.png');
-        background-size: cover;
-        background-position: center top;
+        margin-top: -5vw
     }
     .contenedor_texto{
         width: 40vw;
+        padding: 10vw 0;
+        margin-top: -5%;
         h1{
-            font-size: 2.5vw;
-            width: 100%;
+            font-size: 2.9vw;
+            
         }
         h2{
-            font-size: 2vw;
+            font-size: 2.5vw;
         }
         h3{
             font-size: 1.5vw;
+            margin-bottom: 20px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;;
             strong{
                 color: white;
             }
-            margin-bottom: 1%;
+            
         }
         .cancelar{
-            padding: 0 2%;
-            margin-bottom: 5%;
+            padding: 0 5%;
+            margin-bottom: 65px
         }
         h4{
             font-size: 1.5vw;
+            margin-bottom: 20px
         }
         .blog{
             font-size: 1vw;
-            padding: 0.2vw 1.5vw 1.5vw 1.5VW;
-            margin: 2% 0;
-            span{
-                font-weight: 800;
-                
-            }
+            padding: 3% 5%;
+            font-weight: 800
         }
     }
     .contenedor_imagen{
+        background-image: url('../assets/img/mari.png');
+        background-size: cover;
+        background-position: center top;
 
-
+    }
+    .icono{
+        font-size: 4vw;
+        color:black;
+        background-color: white;
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -180px
+    }
+    p{
+        font-size: 1.5vw;
+        margin-top: 5%
     }
 
 </style>

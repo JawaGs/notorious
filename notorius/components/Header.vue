@@ -1,7 +1,9 @@
 <template>
-    <div class="contenedor ">
-        <img src="../assets/img/logo.png" alt="logo">
-        <h1>GROWSHOP ONLINE</h1>
+    <div class="container has-text-centered  ">
+        <div class="contenedor">
+            <img src="../assets/img/logo.png" alt="logo">
+        <h1 class="has-text-centered">GROWSHOP ONLINE</h1>
+        </div>
     </div>
 </template>
 <script>
@@ -12,7 +14,7 @@ export default {
 <style lang="css" scoped>
     .contenedor{
         display: flex;
-        margin-left: 15vw;
+        justify-content: center
 
     }
     h1{

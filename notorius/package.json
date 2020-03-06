@@ -12,10 +12,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "nuxt-buefy": "^0.3.2"
+    "nuxt": "^2.0.0",
+    "nuxt-buefy": "^0.3.2",
+    "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
